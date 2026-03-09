@@ -57,6 +57,7 @@ python -m src.main serve
 ```bash
 cp .env.example .env
 # заполните своими данными
+# Убедитесь, что config.yaml существует (или скопируйте из репо) — docker-compose монтирует его
 docker-compose up -d
 ```
 

@@ -57,6 +57,7 @@ Open http://localhost:8080 in your browser and enter the `WEB_PASS` password.
 ```bash
 cp .env.example .env
 # fill in your credentials
+# Ensure config.yaml exists (or copy from repo) — docker-compose mounts it
 docker-compose up -d
 ```
 
